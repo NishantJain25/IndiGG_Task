@@ -56,7 +56,7 @@ function setNextQuestion() {
     resetState()
     currentQuestion = currentQuestion + 1
     if(currentQuestion === questions.length - 1){
-        nextBtn.textContent = "Finish Test"
+        nextBtn.textContent = "Finish Quiz"
     }else{
         nextBtn.textContent = "Next"
     }
