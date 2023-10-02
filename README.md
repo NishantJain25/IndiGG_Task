@@ -1,5 +1,5 @@
 # IndiGG_Task
-Welcome to the IndiGG Quiz.
+## Welcome to the IndiGG Quiz.
 ### Features of this quiz game are:
 * The player has 30 seconds limit to answer each question.
 * Select the correct option and press the 'Submit' button to submit the answer.
