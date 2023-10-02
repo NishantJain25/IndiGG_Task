@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Welcome to the IndiGG Quiz!</h1>
+      <div id="question-container" class="hide">
+        <div class="progress-indicator">
+          <div id="progress-bar"></div>
+          <p id="progress-text"></p>
+          <p id="timer"></p>
+        </div>
+        <div id="question"></div>
+        <div id="answer-options"></div>
+        <div id="display-answer"></div>
+        <button id="submit" disabled>Submit</button>
+        <div id="result"></div>
+        <div class="control">
+          <button id="next" class="hide">Next</button>
+        </div>
+      </div>
+      <div id="completion-container" class="hide">
+        <div class="row">
+          <button id="restart">
+            Restart<span class="material-icons-round">restart_alt</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
