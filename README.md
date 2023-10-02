@@ -16,4 +16,5 @@
 * At the end of the quiz there is a restart button that takes the player back to the first question.
 * The quiz page is adaptive to smaller screens.
 
-### Github link - https://github.com/NishantJain25/IndiGG_Task
+### GitHub link - https://github.com/NishantJain25/IndiGG_Task
+### Google Drive link - https://drive.google.com/drive/folders/1IhJR0eiR3t43bXDybSGb0AWi1jlyVIf9?usp=sharing
